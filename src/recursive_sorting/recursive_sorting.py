@@ -12,6 +12,8 @@ def merge(arrA, arrB):
             # add element to the merged array and shift index
             merged_arr[i] = arrB[iofB]
             iofB += 1
+        # if an index lies beyond the bounds of the array,
+        # we've reached the end, so add element from the other array
         elif len(arrB) <= iofB:
             merged_arr[i] = arrA[iofA]
             iofA += 1

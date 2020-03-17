@@ -83,7 +83,7 @@ Recall that the runtime complexity of an algorithm, often expressed using *Big O
 ### Try to write a search function
 - Complete the functions in `searching.py`
 
-### There are a few "order n" sorting algorithms whose runtime will be linear, even in a worst case scenario. 
+### There are a few "order n" sorting algorithms whose runtime will be linear, even in a worst case scenario.
 Look into Counting Sort.
 - How is this algorithm different from other iterative sorting algorithms?
     - What are the advantages/disadvantages to this type of sorting algorithm?
