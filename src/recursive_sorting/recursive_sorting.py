@@ -35,6 +35,8 @@ def merge(arrA, arrB):
 #    (a single element cannot be "out of order")
 # 3. Start merging your single lists of one element together into larger, sorted sets
 # 4. Repeat step 3 until the entire data set has been reassembled
+
+
 def merge_sort(arr):
     # TO-DO
     if len(arr) <= 1:

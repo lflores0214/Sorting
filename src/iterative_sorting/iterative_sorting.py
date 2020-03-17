@@ -39,7 +39,7 @@ def bubble_sort(arr):
                 arr[j], arr[j+1] = arr[j+1], arr[j]
             # run loop again until they are all sorted
                 print(arr)
-            # bubble_sort(arr)
+        # bubble_sort(arr)
 
     return arr
 
