@@ -156,3 +156,23 @@ print(insertion_sort(my_list))
 #   put anything bigger into right array
 # return quicksort(left) + quicksort(right)
 # 
+def quicksort(arr):
+    # base case: if array length is 0 or 1 
+    if len(arr) < 2:
+        #  return array
+        return arr
+    else:
+        # else: 
+#   pick pivot, might as well pick first, since its unsorted, none are better
+        pivot = arr[0]
+        left = []
+        right = []
+    for value in arr[1:]:
+         # put anything smaller into left array
+        if value <= pivot:
+            left.append(value)
+        else:
+            #   put anything bigger into right array
+            right.append(value)
+    # return quicksort(left) + [pivot] + quicksort(right)
+    return quicksort(left) + [pivot] + quicksort(right)
