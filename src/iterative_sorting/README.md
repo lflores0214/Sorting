@@ -14,9 +14,9 @@ Think back to class or team picture day. Everyone stands in a line facing the ph
 
     a. Copy the item at that index into a temp variable
 
-    b. Iterate to the left until you find the correct index in the "sorted" part of the array at which this element should be inserted  
+    b. Iterate to the left until you find the correct index in the "sorted" part of the array at which this element should be inserted
     - Shift items over to the right as you iterate
-    
+
     c. When the correct index is found, copy temp into this position
 
 
@@ -83,7 +83,7 @@ Recall that the runtime complexity of an algorithm, often expressed using *Big O
 ### Try to write a search function
 - Complete the functions in `searching.py`
 
-### There are a few "order n" sorting algorithms whose runtime will be linear, even in a worst case scenario. 
+### There are a few "order n" sorting algorithms whose runtime will be linear, even in a worst case scenario.
 Look into Counting Sort.
 - How is this algorithm different from other iterative sorting algorithms?
     - What are the advantages/disadvantages to this type of sorting algorithm?
